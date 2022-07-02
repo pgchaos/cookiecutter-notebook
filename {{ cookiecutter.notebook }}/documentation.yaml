@@ -1,0 +1,17 @@
+formatter: "markdown"
+header-from: docs/01-header.md
+
+output:
+  file: "README.md"
+  mode: replace
+  template: |-
+    <!-- BEGIN_DOCS -->
+    {{ .Content }}
+    <!-- END_DOCS -->
+
+content: |-
+  {{ .Header }}
+
+  {{ include "docs/02-requirements.md" }}
+
+  {{ include "docs/03-documentation.md" }}

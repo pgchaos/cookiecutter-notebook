@@ -1,0 +1,11 @@
+{
+    "name": "name",
+    "notebook": "{{ cookiecutter.name.lower().replace(' ', '-') }}",
+    "description": "description",
+    "source": "source",
+    "_copy_without_render": [
+        "documentation.yaml"
+    ],
+    "init_repository": "y",
+    "init_boilerplate": "y"
+}
