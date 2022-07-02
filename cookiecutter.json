@@ -4,7 +4,8 @@
     "description": "description",
     "source": "source",
     "_copy_without_render": [
-        "*.yaml"
+        ".github/workflows/changelog.yml",
+        "documentation.yaml"
     ],
     "init_repository": "y",
     "init_boilerplate": "y"
